@@ -6,7 +6,7 @@ import pandas as pd
 from deap import base, creator, tools
 
 # Load the distance matrix from an Excel file
-dist_df = pd.read_excel("Project3_DistancesMatrix.xlsx", sheet_name="Sheet1", index_col=0)
+dist_df = pd.read_excel("DistancesMatrix.xlsx", sheet_name="Sheet1", index_col=0)
 # dist_df = pd.read_csv("Project3_DistancesMatrix.csv")
 
 distance_matrix = dist_df.to_numpy()
